@@ -28,10 +28,7 @@ void draw()
 	rect(0,550,400,50);
 	stroke(199,199,14);
 	fill(199,199,14);
-	arc (endX,550,boltStartX,boltStartY,PI,2*PI);		
-	noStroke();
-	fill(255,255,255,250);
-	ellipse(300,100,50,50);
+	arc (endX,550,boltStartX,boltStartY,PI,2*PI);
 }
 
 void mousePressed()
